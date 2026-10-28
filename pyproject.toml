@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scholarly-core"
+version = "1.0.0"
+description = "Deterministic Scientific Metrology & Epistemic Audit Toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Tim Riset Arsitektur Kesarjanaan", email = "riset@ilmify.id" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+Homepage = "https://github.com/zaditprodakwah/jangkar-kompas-riset-ilmiah"
+Repository = "https://github.com/zaditprodakwah/jangkar-kompas-riset-ilmiah.git"
+Documentation = "https://ilmify.id/lab"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
