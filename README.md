@@ -112,6 +112,15 @@ Buku catatan eksekusi interaktif tersedia di:
 jupyter notebook benchmarks/notebooks/01_scholarly_metascience_integrity_benchmark.ipynb
 ```
 
+Atau unduh langsung korpus empiris 4-kluster menggunakan `kagglehub`:
+```python
+import kagglehub
+
+# Unduh tolok ukur metasains resmi langsung ke cache lokal
+path = kagglehub.dataset_download("muhzadit/scholarly-metascience-benchmarks")
+print("Lokasi korpus empiris:", path)
+```
+
 ---
 
 ## 🧪 Verifikasi Mutu Deterministik
