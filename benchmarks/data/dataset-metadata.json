@@ -1,0 +1,19 @@
+{
+  "title": "Scholarly Metascience & Research Integrity Benchmarks",
+  "id": "muhzadit/scholarly-metascience-benchmarks",
+  "subtitle": "Empirical Metascience Benchmarks for Research Integrity",
+  "description": "Official empirical companion benchmark suite for the monograph 'Jangkar & Kompas Riset Ilmiah' (18 Chapters, 40 KUM PO-PAK). Features multi-cluster empirical datasets: (1) Statcheck psychology reporting discrepancies (Nuijten 2016) and Ioannidis PPV parameters, (2) Causal concept inventory gains vs Cohen's d (Nissen 2018, 8,342 students), (3) Discrete integer data forensics (GRIM, GRIMMER, DEBIT, and Aiken exact polynomial convolution), and (4) Bibliometric knowledge topology disruption networks (Funk & Owen-Smith CD-Index, Uzzi Combinatorial Novelty).",
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0"
+    }
+  ],
+  "keywords": [
+    "metascience",
+    "reproducibility",
+    "statistical-forensics",
+    "causal-inference",
+    "bibliometrics",
+    "research-integrity"
+  ]
+}

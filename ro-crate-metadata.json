@@ -15,18 +15,32 @@
       "@id": "./",
       "@type": "Dataset",
       "name": "Jangkar & Kompas Riset Ilmiah: Benchmark Metasains & Pustaka scholarly-core",
-      "description": "Artefak komputasi dan tolok ukur terbuka untuk monograf Jangkar & Kompas Riset Ilmiah (Bab 11 & Lampiran C). Menyajikan kalkulasi exact p-value via konvolusi polinomial, Gwet AC1, dan 1.000 matriks butir psikometri.",
-      "datePublished": "2026-10-27",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Artefak komputasi dan tolok ukur terbuka untuk monograf Jangkar & Kompas Riset Ilmiah (18 Bab). Menyajikan pustaka ilmiah terpadu (forensik replikasi, inferensi kausal, bibliometrika, reliabilitas kualitatif, dan metrologi validitas) serta suite 4 kluster benchmark empiris.",
+      "datePublished": "2026-10-28",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": {
+        "@type": "Person",
+        "name": "Muhammad Khoiruzzadittaqwa",
+        "email": "zadit@ilmify.id"
+      },
       "hasPart": [
         {
           "@id": "src/scholarly_core/"
         },
         {
-          "@id": "benchmarks/data/psychometric_validation_benchmark.csv"
+          "@id": "benchmarks/data/01_statcheck_psychology_corpus.csv"
         },
         {
-          "@id": "benchmarks/notebooks/01_psychometric_validity_benchmark.ipynb"
+          "@id": "benchmarks/data/02_causal_concept_inventory_gains.csv"
+        },
+        {
+          "@id": "benchmarks/data/03_discrete_forensics_lattice.csv"
+        },
+        {
+          "@id": "benchmarks/data/04_knowledge_topology_disruption.csv"
+        },
+        {
+          "@id": "benchmarks/notebooks/01_scholarly_metascience_integrity_benchmark.ipynb"
         }
       ]
     },
@@ -36,18 +50,6 @@
       "name": "scholarly-core Python Toolkit",
       "programmingLanguage": "Python 3",
       "version": "1.0.0"
-    },
-    {
-      "@id": "benchmarks/data/psychometric_validation_benchmark.csv",
-      "@type": "File",
-      "name": "Psychometric Validation Benchmark (1,000 Items)",
-      "encodingFormat": "text/csv"
-    },
-    {
-      "@id": "benchmarks/notebooks/01_psychometric_validity_benchmark.ipynb",
-      "@type": "File",
-      "name": "Psychometric Validity Benchmark Jupyter Notebook",
-      "encodingFormat": "application/x-ipynb+json"
     }
   ]
 }
